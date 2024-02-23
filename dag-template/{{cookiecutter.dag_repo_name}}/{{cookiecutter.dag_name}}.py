@@ -15,13 +15,13 @@ from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import get_current_context
 
 args = {
-    "owner": "{{dag_owner}}",
+    "owner": "{{cookiecutter.dag_owner}}",
     'retries': 5,
     'retry_delay': dt.timedelta(minutes=3),
 }
 
 
-@dag(dag_id="dag_{{dag_name}}",
+@dag(dag_id="dag_{{cookiecutter.dag_name}}",
      schedule_interval=None,
      start_date=dt.datetime(2024, 2, 1),
      catchup=False,
