@@ -8,4 +8,4 @@
 - something else ...
 
 
-Короткое видео процесса создания [cookiecutter.html](img%2Fcookiecutter.html)
+Короткое видео процесса создания [cookiecutter.mp4](img%2Fcookiecutter.mp4)
