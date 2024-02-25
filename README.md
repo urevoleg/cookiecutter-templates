@@ -8,8 +8,4 @@
 - something else ...
 
 
-Короткое видео процесса создания:
-
-<video width="720" controls>
-<source src="img/cookiecutter.mp4" type="video/mp4">
-</video>
+Короткое видео процесса создания [cookiecutter.mp4](img%2Fcookiecutter.mp4)
