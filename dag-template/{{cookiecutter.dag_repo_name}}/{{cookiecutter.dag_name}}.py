@@ -37,3 +37,6 @@ def create_dag():
     )
 
     start >> end
+
+
+create_dag()
